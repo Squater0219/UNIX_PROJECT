@@ -1,0 +1,52 @@
+Start testing: Jun 13 18:15 KST
+----------------------------------------------------------
+1/1 Testing: PlayerTest
+1/1 Test: PlayerTest
+Command: "/Users/minjung-gong/myapp/PJfolder/unix-pj/build/PlayerTest"
+Directory: /Users/minjung-gong/myapp/PJfolder/unix-pj/build
+"PlayerTest" start time: Jun 13 18:15 KST
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from TestFileWriterTest
+[ RUN      ] TestFileWriterTest.WriteTextFile
+Test
+[       OK ] TestFileWriterTest.WriteTextFile (0 ms)
+[----------] 1 test from TestFileWriterTest (0 ms total)
+
+[----------] 2 tests from LinkedListTest
+[ RUN      ] LinkedListTest.AddTest
+/Users/minjung-gong/myapp/PJfolder/unix-pj/tst/PlayerTest.cc:17: Failure
+Expected equality of these values:
+  size()
+    Which is: 0
+  1
+
+[  FAILED  ] LinkedListTest.AddTest (0 ms)
+[ RUN      ] LinkedListTest.ClearTest
+/Users/minjung-gong/myapp/PJfolder/unix-pj/tst/PlayerTest.cc:31: Failure
+Value of: empty()
+  Actual: false
+Expected: true
+
+[  FAILED  ] LinkedListTest.ClearTest (0 ms)
+[----------] 2 tests from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] LinkedListTest.AddTest
+[  FAILED  ] LinkedListTest.ClearTest
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Failed.
+"PlayerTest" end time: Jun 13 18:15 KST
+"PlayerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 13 18:15 KST
